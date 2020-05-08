@@ -32,9 +32,6 @@ function newRow(trainName, trainDest, trainFreq, trainTime) {
     $("#current-trains").append(newRow);
 }
 
-newRow("Trenton Express", "Trenton", 30, "06:00");
-newRow("Boston Bus", "Boston", 65, "07:15");
-
 $("#submit-btn").on("click", function (event) {
     event.preventDefault();
 
